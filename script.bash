@@ -14,3 +14,5 @@ cd ..
 touch .gitignore.txt
 echo "fol_1" >> .gitignore.txt
 echo "fol_2" >> .gitignore.txt
+rmdir fol_1
+rmdir fol_2

@@ -13,10 +13,12 @@ touch 2_1.txt
 touch 2_2.txt
 touch 2_3.txt
 chmod 600 2_1.txt 2_3.txt
-chmod 700 1_2.txt 
+chmod 700 2_2.txt 
 cd ..
 touch .gitignore.txt
 echo "fol_1" >> .gitignore.txt
 echo "fol_2" >> .gitignore.txt
 rmdir fol_1
 rmdir fol_2
+
+echo Job is finished
